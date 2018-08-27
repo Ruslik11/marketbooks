@@ -1,0 +1,32 @@
+{
+  "name": "bha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "bourbon": "^4.3.4",
+    "gulp": "^3.9.1",
+    "imagemin-pngquant": "^5.0.1",
+    "imagemin-pngquant-gfw": "^0.2.0",
+    "kute.js": "^1.6.5",
+    "owl.carousel": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "browser-sync": "^2.18.13",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-babel": "^7.0.0",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-imagemin": "^3.4.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^4.3.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>Collection Prestige</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="/css/owl.carousel.css">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/owl.theme.default.css">
+  <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link type="image/x-icon" href="/img/logo.png" rel="shortcut icon">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
+  <body>
+    <div id="default-modal" class="modal-overlay hide">
+      <div class="modal-wrapper">
+        <div class="modal modal--border-top modal--animate">
+          <button type="button" class="modal__button modal__button--close">×</button>
+          <header class="modal__header">
+            <h3 class="f-center">Заказать обратный звонок</h3>
+          </header>
+          <div class="modal__body">
+            <form method="post" class="call-back">
+              <div class="row">
+                <div class="col-5">
+                  <label for="name" class="call-back__label">Имя: *</label>
+                  <label for="phone" class="call-back__label">Телефон: *</label>
+                  <label for="time" class="call-back__label">Удобное для Вас время:</label>
+                  <label for="info" class="call-back__label">Дополнительная информация:</label>
+                </div>
+                <div class="col-7">
+                  <input type="text" id="name" class="call-back__input">
+                  <input type="text" id="phone" class="call-back__input">
+                  <input type="text" id="time" class="call-back__input">
+                  <textarea type="text" id="info" class="call-back__textarea"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <input type="submit" value="Заказать" class="call-back__btn btn btn-primary">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="click-buy" class="modal-overlay hide">
+      <div class="modal-wrapper">
+        <div class="modal modal--border-top modal--animate">
+          <button type="button" class="modal__button modal__button--close">×</button>
+          <header class="modal__header">
+            <h3 class="f-center">Книга «Сердце речаря» кожаном переплете, коллекционное издание № 1-20</h3>
+          </header>
+          <div class="modal__body">
+            <form method="post" class="call-back">
+              <div class="row">
+                <div class="col-4">
+                  <label for="name" class="call-back__label">Имя: *</label>
+                  <label for="phone" class="call-back__label">Телефон: *</label>
+                </div>
+                <div class="col-8">
+                  <input type="text" id="name" class="call-back__input">
+                  <input type="text" id="phone" class="call-back__input">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-5 f-right">
+                  <input type="checkbox" id="agree">
+                </div>
+                <div class="col-7 f-left">
+                  <label for="agree" class="call-back__label call-back__label--small">Я ознакомился с правилами обработки информации и защите данных клиентов.</label>
+                </div>
+              </div>
+              <div class="row">
+                <input type="submit" value="Оформить заказ" class="call-back__btn btn btn-primary">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="go-basket" class="modal-overlay hide">
+      <div class="modal-wrapper">
+        <div class="modal modal--border-top modal--animate">
+          <button type="button" class="modal__button modal__button--close">×</button>
+          <header class="modal__header"></header>
+          <div class="modal__body f-center"><a href="#" class="btn btn-primary btn--inline">перейти в корзину</a></div>
+          <div class="modal__footer f-center">
+            <button type="button" class="btn btn-secondary modal__button modal__button--close modal__button--static btn--inline">продолжить покупки</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="header" class="container">
+      <div class="row">
+        <div class="mobile_button">
+          <button class="mobile_header_button" type="button">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <button class="mobile_header_magazine" type="button">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 296.999 296.999" style="enable-background:new 0 0 296.999 296.999;" xml:space="preserve"> <g> <g> <g> <path d="M45.432,35.049c-0.008,0-0.017,0-0.025,0c-2.809,0-5.451,1.095-7.446,3.085c-2.017,2.012-3.128,4.691-3.128,7.543 v159.365c0,5.844,4.773,10.61,10.641,10.625c24.738,0.059,66.184,5.215,94.776,35.136V84.023c0-1.981-0.506-3.842-1.461-5.382 C115.322,40.849,70.226,35.107,45.432,35.049z"/> <path d="M262.167,205.042V45.676c0-2.852-1.111-5.531-3.128-7.543c-1.995-1.99-4.639-3.085-7.445-3.085c-0.009,0-0.018,0-0.026,0 c-24.793,0.059-69.889,5.801-93.357,43.593c-0.955,1.54-1.46,3.401-1.46,5.382v166.779 c28.592-29.921,70.038-35.077,94.776-35.136C257.394,215.651,262.167,210.885,262.167,205.042z"/> <path d="M286.373,71.801h-7.706v133.241c0,14.921-12.157,27.088-27.101,27.125c-20.983,0.05-55.581,4.153-80.084,27.344 c42.378-10.376,87.052-3.631,112.512,2.171c3.179,0.724,6.464-0.024,9.011-2.054c2.538-2.025,3.994-5.052,3.994-8.301V82.427 C297,76.568,292.232,71.801,286.373,71.801z"/> <path d="M18.332,205.042V71.801h-7.706C4.768,71.801,0,76.568,0,82.427v168.897c0,3.25,1.456,6.276,3.994,8.301 c2.545,2.029,5.827,2.78,9.011,2.054c25.46-5.803,70.135-12.547,112.511-2.171c-24.502-23.19-59.1-27.292-80.083-27.342 C30.49,232.13,18.332,219.963,18.332,205.042z"/> </g> </g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </svg>
+          </button>
+        </div>
+        <div class="mobile_header">
+          <div class="close_menu">
+            <span></span><span></span>
+          </div>
+        </div>
+        <div class="header_logo col-2 col-xs-offset-0 col-xs-8 col-xs-offset-2">
+          <a href="index.html" class="logo"><img src="/img/logo.png" alt="logo"></a>
+        </div>
+        <div class="time_work col-7 col-xs-12">
+          <div class="top-info">
+            <div class="top-info__item hidden-sm">
+              <div class="mobile-nav js-nav">
+                <div class="mobile-nav__burger"><span></span></div>
+                <div class="search-btn btn"></div>
+              </div>
+            </div>
+            <div class="top-info__item hidden-xs">
+              <p class="contacts__phone">+7 (495) 111-11-66</p>
+            </div>
+            <div class="top-info__item hidden-xs">
+              <button class="btn btn-primary js-show-default-modal">Заказать звонок</button>
+            </div>
+          </div>
+          <div class="nav-search-wrap">
+            <nav class="main-nav">
+              <ul class="main-nav__wrapper">
+                <li class="main-nav__item"><a href="index.html">о магазине</a></li>
+                <li class="main-nav__item"><a href="index.html">каталог</a></li>
+                <li class="main-nav__item"><a href="index.html">Услуги</a></li>
+                <li class="main-nav__item"><a href="index.html">доставка</a></li>
+                <li class="main-nav__item"><a href="index.html">оплата</a></li>
+                <li class="main-nav__item"><a href="index.html">СКИДКИ</a></li>
+                <li class="main-nav__item"><a href="index.html">контакты</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="basket_content col-lg-3 top-info__item">
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve"> <g> <g> <g> <path d="M15.733,20.125c1.104,0,2-0.896,2-2v-7.8C17.733,6.838,20.57,4,24.058,4c3.487,0,6.325,2.838,6.325,6.325v7.8 c0,1.104,0.896,2,2,2c1.104,0,2-0.896,2-2v-7.8C34.383,4.632,29.751,0,24.058,0c-5.692,0-10.324,4.632-10.324,10.325v7.8 C13.733,19.229,14.629,20.125,15.733,20.125z" fill="#D80027"/> <path d="M47,15.631H36.383v2.494c0,2.206-1.794,4-4,4c-2.205,0-4-1.794-4-4v-2.494h-8.649v2.494c0,2.206-1.794,4-4,4 s-4-1.794-4-4v-2.494H1c-0.552,0-0.893,0.435-0.762,0.971L7.235,45.1C7.658,46.702,9.343,48,11,48h26 c1.658,0,3.342-1.299,3.767-2.9l6.996-28.498C47.893,16.065,47.553,15.631,47,15.631z" fill="#D80027"/> </g> </g> </g> <g> </g></svg>
+          </a>
+          <div class="basket">
+            <div class="basket__ico"><img src="/img/card-ico.png" alt="basket"></div>
+            <div class="basket__info">
+              <div class="login-content">
+                <a href="#">Вход</a>
+                <span> / </span>
+                <a href="#">Регистрация</a>
+              </div>
+              <div class="basket__header">
+                <p class="basket__title">В корзине</p>
+                <div class="basket__counter btn btn-primary"><span>9</span></div>
+                <p class="basket__title">товаров</p>
+              </div>
+              <div class="basket__footer">
+                <p>На суму: </p>
+                <p class="basket__money">79 000 <span>р.</span></p>
+              </div>
+            </div>
+          </div>
+          <ul class="basket-nav__drop-down">
+            <li class="secondary-nav__drop-down-item"><a href="#">Покупки</a></li>
+            <li class="secondary-nav__drop-down-item"><a href="#">Мои заказы</a></li>
+            <li class="secondary-nav__drop-down-item"><a href="#">Личный кабинет</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="header_search" class="container-fluid">
+      <div class="container">
+        <div class="content">
+          <p class="contacts__phone">+7 (495) 111-11-66</p>
+          <div class="col-sm-9 search">
+            <form>
+              <input type="text" placeholder="Найти книгу...">
+              <span class="ico"></span>
+              <button type="submit" class="button_search">Поиск</button>
+            </form>
+            <div class="search_content">
+              <ul class="search-nav__drop-down">
+                <li class="secondary-nav__drop-down-item">
+                  <div class="search_secondary_img">
+                    <img src="/img/book-item.png" alt="book">
+                  </div>
+                  <div class="search_secondary_title">
+                    <div class="search_secondary_avtor">
+                      <a href="#">Everything everything</a>
+                      <span class="">Nicola Yoon</span>
+                    </div>
+                    <span class="search_secondary_price">900 <strong>р.</strong></span>
+                  </div>
+                </li>
+                <li class="secondary-nav__drop-down-item">
+                  <div class="search_secondary_img">
+                    <img src="/img/book-item.png" alt="book">
+                  </div>
+                  <div class="search_secondary_title">
+                    <div class="search_secondary_avtor">
+                      <a href="#">The Sun is Also A Star</a>
+                      <span class="">Nicola Yoon</span>
+                    </div>
+                    <span class="search_secondary_price">1 000 <strong>р.</strong></span>
+                  </div>
+                </li>
+              </ul>
+              <a href="#">все результаты</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="catalog" class="container">
+      <div class="row">
+        <div class="col-12">
+          <ul class="breadcrumbs">
+            <li class="breadcrumbs__item"><a href="#">Главная</a></li>
+            <i class="fas fa-arrow-right"></i>
+            <li class="breadcrumbs__item"><a href="#">Item 1</a></li>
+            <i class="fas fa-arrow-right"></i>
+            <li class="breadcrumbs__item"><a href="#">Item 2</a></li>
+          </ul>
+          <h4 class="title-secondary f-center">каталог</h4>
+          <div class="row content_catalog">
+            <div class="col-3 col-xs-4 col-xxs-10 col-xxs-offset-1">
+              <div class="market-item market-item--catalog">
+                <div class="market-item__img"><img src="/img/book-item.png" alt="book"></div>
+                <div class="market-item__title">
+                  <p>военное дело</p>
+                </div><a href="#" class="btn btn-secondary">подробнее</a>
+              </div>
+            </div>
+            <div class="col-3 col-xs-4 col-xxs-10 col-xxs-offset-1">
+              <div class="market-item market-item--catalog">
+                <div class="market-item__img"><img src="/img/book-item.png" alt="book"></div>
+                <div class="market-item__title">
+                  <p>военное дело</p>
+                </div><a href="#" class="btn btn-secondary">подробнее</a>
+              </div>
+            </div>
+            <div class="col-3 col-xs-4 col-xxs-10 col-xxs-offset-1">
+              <div class="market-item market-item--catalog">
+                <div class="market-item__img"><img src="/img/book-item.png" alt="book"></div>
+                <div class="market-item__title">
+                  <p>военное дело</p>
+                </div><a href="#" class="btn btn-secondary">подробнее</a>
+              </div>
+            </div>
+            <div class="col-3 col-xs-4 col-xxs-10 col-xxs-offset-1">
+              <div class="market-item market-item--catalog">
+                <div class="market-item__img"><img src="/img/book-item.png" alt="book"></div>
+                <div class="market-item__title">
+                  <p>военное дело</p>
+                </div><a href="#" class="btn btn-secondary">подробнее</a>
+              </div>
+            </div>
+            <div class="col-3 col-xs-4 col-xxs-10 col-xxs-offset-1">
+              <div class="market-item market-item--catalog">
+                <div class="market-item__img"><img src="/img/book-item.png" alt="book"></div>
+                <div class="market-item__title">
+                  <p>военное дело</p>
+                </div><a href="#" class="btn btn-secondary">подробнее</a>
+              </div>
+            </div>
+            <div class="col-3 col-xs-4 col-xxs-10 col-xxs-offset-1">
+              <div class="market-item market-item--catalog">
+                <div class="market-item__img"><img src="/img/book-item.png" alt="book"></div>
+                <div class="market-item__title">
+                  <p>военное дело</p>
+                </div><a href="#" class="btn btn-secondary">подробнее</a>
+              </div>
+            </div>
+            <div class="col-3 col-xs-4 col-xxs-10 col-xxs-offset-1">
+              <div class="market-item market-item--catalog">
+                <div class="market-item__img"><img src="/img/book-item.png" alt="book"></div>
+                <div class="market-item__title">
+                  <p>военное дело</p>
+                </div><a href="#" class="btn btn-secondary">подробнее</a>
+              </div>
+            </div>
+            <div class="col-3 col-xs-4 col-xxs-10 col-xxs-offset-1">
+              <div class="market-item market-item--catalog">
+                <div class="market-item__img"><img src="/img/book-item.png" alt="book"></div>
+                <div class="market-item__title">
+                  <p>военное дело</p>
+                </div><a href="#" class="btn btn-secondary">подробнее</a>
+              </div>
+            </div>
+            <div class="col-3 col-xs-4 col-xxs-10 col-xxs-offset-1">
+              <div class="market-item market-item--catalog">
+                <div class="market-item__img"><img src="/img/book-item.png" alt="book"></div>
+                <div class="market-item__title">
+                  <p>военное дело</p>
+                </div><a href="#" class="btn btn-secondary">подробнее</a>
+              </div>
+            </div>
+            <div class="col-3 col-xs-4 col-xxs-10 col-xxs-offset-1">
+              <div class="market-item market-item--catalog">
+                <div class="market-item__img"><img src="/img/book-item.png" alt="book"></div>
+                <div class="market-item__title">
+                  <p>военное дело</p>
+                </div><a href="#" class="btn btn-secondary">подробнее</a>
+              </div>
+            </div>
+            <div class="col-3 col-xs-4 col-xxs-10 col-xxs-offset-1">
+              <div class="market-item market-item--catalog">
+                <div class="market-item__img"><img src="/img/book-item.png" alt="book"></div>
+                <div class="market-item__title">
+                  <p>военное дело</p>
+                </div><a href="#" class="btn btn-secondary">подробнее</a>
+              </div>
+            </div>
+            <div class="col-3 col-xs-4 col-xxs-10 col-xxs-offset-1">
+              <div class="market-item market-item--catalog">
+                <div class="market-item__img"><img src="/img/book-item.png" alt="book"></div>
+                <div class="market-item__title">
+                  <p>военное дело</p>
+                </div><a href="#" class="btn btn-secondary">подробнее</a>
+              </div>
+            </div>
+            <div class="col-3 col-xs-4 col-xxs-10 col-xxs-offset-1">
+              <div class="market-item market-item--catalog">
+                <div class="market-item__img"><img src="/img/book-item.png" alt="book"></div>
+                <div class="market-item__title">
+                  <p>военное дело</p>
+                </div><a href="#" class="btn btn-secondary">подробнее</a>
+              </div>
+            </div>
+            <div class="col-3 col-xs-4 col-xxs-10 col-xxs-offset-1">
+              <div class="market-item market-item--catalog">
+                <div class="market-item__img"><img src="/img/book-item.png" alt="book"></div>
+                <div class="market-item__title">
+                  <p>военное дело</p>
+                </div><a href="#" class="btn btn-secondary">подробнее</a>
+              </div>
+            </div>
+            <div class="col-3 col-xs-4 col-xxs-10 col-xxs-offset-1">
+              <div class="market-item market-item--catalog">
+                <div class="market-item__img"><img src="/img/book-item.png" alt="book"></div>
+                <div class="market-item__title">
+                  <p>военное дело</p>
+                </div><a href="#" class="btn btn-secondary">подробнее</a>
+              </div>
+            </div>
+            <div class="col-3 col-xs-4 col-xxs-10 col-xxs-offset-1">
+              <div class="market-item market-item--catalog">
+                <div class="market-item__img"><img src="/img/book-item.png" alt="book"></div>
+                <div class="market-item__title">
+                  <p>военное дело</p>
+                </div><a href="#" class="btn btn-secondary">подробнее</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="news-wrapper">
+      <div class="container">
+        <div class="news">
+          <h4 class="f-center">новости</h4>
+          <div class="row">
+            <div class="col-4 col-sm-offset-0 col-xs-8 col-xs-offset-2">
+              <div class="news__header"><img src="/img/post-opus-1.png" alt="news"></div>
+              <div class="news__content">
+                <p class="f-center">This is the Post’s Title NUMBER 1</p>
+              </div>
+              <div class="news__footer">
+                <div class="row">
+                  <p class="f-left">5 марта, 21:05</p>
+                  <p class="news_description">
+                    Class aptent taciti sociosqu ad litora torquent per con
+                    dubia nostra, per inceptos himenaeos. Lorem ipsum
+                    dolor sit amet nostra edit tartu veliti ades ud.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 col-sm-offset-0 col-xs-8 col-xs-offset-2">
+              <div class="news__header"><img src="/img/post-opus-2.png" alt="news"></div>
+              <div class="news__content">
+                <p class="f-center">This is the Post’s Title NUMBER 2</p>
+              </div>
+              <div class="news__footer">
+                <div class="row">
+                  <p class="f-left">11 марта, 11:45</p>
+                  <p class="news_description">
+                    Class aptent taciti sociosqu ad litora torquent per con
+                    dubia nostra, per inceptos himenaeos. Lorem ipsum
+                    dolor sit amet nostra edit tartu veliti ades ud.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 col-sm-offset-0 col-xs-8 col-xs-offset-2">
+              <div class="news__header"><img src="/img/post-opus-3.png" alt="news"></div>
+              <div class="news__content">
+                <p class="f-center">This is the Post’s Title NUMBER 3</p>
+              </div>
+              <div class="news__footer">
+                <div class="row">
+                  <p class="f-left">12 марта, 20:05</p>
+                  <p class="news_description">
+                    Class aptent taciti sociosqu ad litora torquent per con
+                    dubia nostra, per inceptos himenaeos. Lorem ipsum
+                    dolor sit amet nostra edit tartu veliti ades ud.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-footer container-fluid">
+      <div class="main-footer__header">
+        <div class="container hidden-xs">
+          <div class="row">
+            <div class="footer_slogan col-sm-4">
+              <div class="footer_slogan_content col-sm-9">
+                <div class="img">
+                  <img src="/img/logo.png" alt="logo">
+                </div>
+                <p>
+                  В Дарито каждый - мастер, каждый - профессионал, каждый предан любимой работе, итогом
+                  которой
+                  становится дар, который Вам будет приятно преподнести и который принесет радость
+                  одариваемому
+                  Вами.
+                </p>
+              </div>
+            </div>
+            <div class="footer_maps col-sm-5">
+              <h2>МЫ НА КАРТЕ</h2>
+              <div class="footer_maps_content">
+                <div id="map" class="map"></div>
+                <script>
+                    function initMap() {
+                        var myLatlng = new google.maps.LatLng(55.680033, 37.655388);
+                        var mapOptions = {
+                            zoom: 13,
+                            center: myLatlng
+                        }
+                        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+                        var marker = new google.maps.Marker({
+                            position: myLatlng,
+                            title: ""
+                        });
+
+                        marker.setMap(map);
+
+                    }
+                </script>
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXuJYs6TftDqZYYUbcyfFl1wD3jISe59w&amp;callback=initMap"></script>
+              </div>
+            </div>
+            <div class="footer_contacts col-sm-3">
+              <div class="footer_contacts_content col-sm-9">
+                <h2>КОНТАКТЫ</h2>
+                <div class="phone">
+                  <i class="fas fa-phone"></i>
+                  <span>+7 (495) 774-61-16</span>
+                </div>
+                <div class="mail">
+                  <i class="fas fa-envelope"></i>
+                  <span>info@prestigebook.ru</span>
+                </div>
+                <div class="time">
+                  <i class="far fa-clock"></i>
+                  <span>Часы работы пн.-пт.: <br> с 9.00 до 18.00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="about_us row">
+            <div class="about_us_content">
+              <ul>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Доставка и оплата</a></li>
+                <li><a href="#">Прайс-лист</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Акции</a></li>
+                <li><a href="#">Вопрос-ответ</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Связаться с нами</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Личный кабинет</a></li>
+                <li><a href="#">Регистрация</a></li>
+              </ul>
+            </div>
+          </div>
+          <h2>Все права защищены CollectionPrestige © 2018</h2>
+        </div>
+      </div>
+    </div>
+    <div class="show-phone hidden-sm">
+      <div data-show="&lt;a href=&quot;tel:+74951111111&quot;&gt; +7 (495) 111-11-11 &lt;/ a&gt;" class="show-hidden">
+        Показать телефон
+      </div>
+      <p>с пн-пт 9:00-18:00</p>
+    </div>
+    <a href="#top" class="go-top"><i class="fa fa-arrow-up"></i><br>Наверх</a>
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/libs.min.js"></script>
+    <script src="/js/common.js"></script>
+    <script src="/js/basket.js"></script>
+  </body>
+</html>
