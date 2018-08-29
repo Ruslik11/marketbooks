@@ -818,6 +818,9 @@
 }
 
 @media (max-width: 767px) {
+  #header {
+    padding: 0 15px;
+  }
   .search-btn--white {
     top: 15px;
     right: 6%;
@@ -1086,10 +1089,10 @@
     padding: 15px 10px;
   }
   #content .owl-carousel .owl-buttons .owl-prev {
-    left: -5px;
+    left: 0;
   }
   #content .owl-carousel .owl-buttons .owl-next {
-    right: -5px;
+    right: 0;
   }
   #vip_gift .container .content h4 {
     margin: 0;
@@ -1205,6 +1208,9 @@
     .col-3 {
       margin: 0;
     }
+  }
+  .main-footer__header .container > h2 {
+    line-height: 20px;
   }
 }
 

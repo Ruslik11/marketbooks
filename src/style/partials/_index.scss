@@ -95,24 +95,12 @@ body {
     position: relative;
     display: flex;
     color: #4c4c4c;
-    padding: 15px;
-    padding-bottom: 0;
+    padding: 0 15px;
     background: #f2f2f2;
     &:after {
       content: "";
       display: table;
       clear: both;
-    }
-    .login-content {
-      a, span {
-        font-family: 'RobotoRegular';
-        color: #b71f21;
-        font-size: 14px;
-        text-decoration: none;
-      }
-      span {
-        padding: 0 13px;
-      }
     }
     .basket__ico {
       width: 42px;
@@ -121,13 +109,15 @@ body {
     }
 
     .basket__info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       margin-left: 15px;
     }
 
     .basket__header {
       display: flex;
       align-items: center;
-      margin-top: 15px;
       .basket__title {
         font-family: 'RobotoRegular';
         font-size: 14px;
@@ -166,44 +156,6 @@ body {
         color: $red;
         span {
           color: #000;
-        }
-      }
-    }
-  }
-  .basket-nav__drop-down {
-    z-index: -1;
-    transition: transform 1s;
-    transform: translateY(-200px);
-    width: 100%;
-    position: absolute;
-    top: 111px;
-    left: 0;
-    margin: 0;
-    padding: 20px 0;
-    border: 1px solid $gray;
-    background-color: #fff;
-    .secondary-nav__drop-down-item {
-      position: relative;
-      margin: 0 25px;
-      &:hover {
-        a {
-          text-decoration: none;
-        }
-      }
-      &:last-child {
-        border: none;
-      }
-      a {
-        display: flex;
-        padding: 15px 20px;
-        background-color: transparent;
-        color: #000;
-        &:hover {
-          background-color: $orange;
-          color: #fff;
-        }
-        &:before {
-          display: none;
         }
       }
     }
