@@ -197,7 +197,7 @@ body {
   width: 15px;
   height: 15px;
   padding: 0;
-  background: url(/img/search-ico.png) no-repeat;
+  background: url(../img/search-ico.png) no-repeat;
 }
 
 #header_search .search {
@@ -240,7 +240,7 @@ body {
 }
 
 #header_search .search-btn:hover {
-  background: url(/img/search-ico.png) no-repeat 10px 4px, #f88e03;
+  background: url(../img/search-ico.png) no-repeat 10px 4px, #f88e03;
 }
 
 #header_search .search_content {
@@ -463,11 +463,11 @@ body {
       }
       .owl-prev {
         left: 0;
-        background: url("/img/slide_left.png");
+        background: url("../img/slide_left.png");
       }
       .owl-next {
         right: 0;
-        background: url("/img/slide_right.png");
+        background: url("../img/slide_right.png");
       }
 
     }
@@ -674,11 +674,11 @@ body {
       }
       .owl-prev {
         left: -9px;
-        background: url("/img/content-left.png") no-repeat;
+        background: url("../img/content-left.png") no-repeat;
       }
       .owl-next {
         right: -9px;
-        background: url("/img/content-right.png") no-repeat;
+        background: url("../img/content-right.png") no-repeat;
       }
     }
   }
@@ -778,7 +778,7 @@ body {
 
 .main-footer {
   padding: 45px 0 20px;
-  background: url("/img/footer_bg.png") no-repeat;
+  background: url("../img/footer_bg.png") no-repeat;
   background-size: 100% 100%;
 }
 
@@ -932,7 +932,7 @@ body {
             position: absolute;
             top: 6px;
             left: -10px;
-            background: url("/img/right-arrow.png") no-repeat;
+            background: url("../img/right-arrow.png") no-repeat;
           }
         }
       }
@@ -1119,13 +1119,13 @@ body {
             left: 27px;
             margin: 0;
             padding: 0;
-            background: url("/img/book_slider_prev.png");
+            background: url("../img/book_slider_prev.png");
             transform: rotate(-90deg);
           }
           .owl-next {
             left: inherit;
             right: 27px;
-            background: url("/img/book_slider_next.png");
+            background: url("../img/book_slider_next.png");
           }
         }
       }
@@ -1196,14 +1196,14 @@ body {
               height: 15px;
               display: flex;
               margin-right: 20px;
-              background: url("/img/stock.png");
+              background: url("../img/stock.png");
             }
           }
           .card-info__click-buy {
             margin: 0;
             &:before {
               height: 18px;
-              background: url("/img/one_click.png");
+              background: url("../img/one_click.png");
             }
           }
           .not_available {

@@ -4,12 +4,12 @@
     <title>Collection Prestige</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="/css/owl.carousel.css">
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/owl.theme.default.css">
-    <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="/css/main.css">
-    <link type="image/x-icon" href="/img/logo.png" rel="shortcut icon">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link type="image/x-icon" href="img/logo.png" rel="shortcut icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
           integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 </head>
@@ -19,22 +19,20 @@
         <div class="modal modal--border-top modal--animate">
             <button type="button" class="modal__button modal__button--close">×</button>
             <header class="modal__header">
-                <h3 class="f-center">Заказать обратный звонок</h3>
+                <h3 class="f-center">Додати книгу</h3>
             </header>
             <div class="modal__body">
                 <form method="post" class="call-back">
                     <div class="row">
                         <div class="col-5">
-                            <label for="name" class="call-back__label">Имя: *</label>
-                            <label for="phone" class="call-back__label">Телефон: *</label>
-                            <label for="time" class="call-back__label">Удобное для Вас время:</label>
-                            <label for="info" class="call-back__label">Дополнительная информация:</label>
+                            <label for="name" class="call-back__label">Назва: *</label>
+                            <label for="author" class="call-back__label">Автор: *</label>
+                            <label for="description" class="call-back__label">Опис:</label>
                         </div>
                         <div class="col-7">
-                            <input type="text" id="name" class="call-back__input">
-                            <input type="text" id="phone" class="call-back__input">
-                            <input type="text" id="time" class="call-back__input">
-                            <textarea type="text" id="info" class="call-back__textarea"></textarea>
+                            <input type="text" name="name" id="name" class="call-back__input">
+                            <input type="text" name="author" id="author" class="call-back__input">
+                            <textarea name="description" id="description" class="call-back__textarea"></textarea>
                         </div>
                     </div>
                     <div class="row">
@@ -115,7 +113,7 @@
             </div>
         </div>
         <div class="header_logo col-2 col-xs-offset-0 col-xs-8 col-xs-offset-2">
-            <a href="index.html" class="logo"><img src="/img/logo.png" alt="logo"></a>
+            <a href="index.html" class="logo"><img src="img/logo.png" alt="logo"></a>
         </div>
         <div class="time_work col-7 col-xs-12">
             <div class="top-info">
@@ -129,19 +127,19 @@
                     <p class="contacts__phone">+7 (495) 111-11-66</p>
                 </div>
                 <div class="top-info__item hidden-xs">
-                    <button class="btn btn-primary js-show-default-modal">Заказать звонок</button>
+                    <button class="btn btn-primary js-show-default-modal">Додати книгу</button>
                 </div>
             </div>
             <div class="nav-search-wrap">
                 <nav class="main-nav">
                     <ul class="main-nav__wrapper">
-                        <li class="main-nav__item"><a href="index.html">о магазине</a></li>
-                        <li class="main-nav__item"><a href="index.html">каталог</a></li>
+                        <li class="main-nav__item"><a href="standart.html">о магазине</a></li>
+                        <li class="main-nav__item"><a href="catalog.html">каталог</a></li>
                         <li class="main-nav__item"><a href="index.html">Услуги</a></li>
                         <li class="main-nav__item"><a href="index.html">доставка</a></li>
                         <li class="main-nav__item"><a href="index.html">оплата</a></li>
                         <li class="main-nav__item"><a href="index.html">СКИДКИ</a></li>
-                        <li class="main-nav__item"><a href="index.html">контакты</a></li>
+                        <li class="main-nav__item"><a href="contacts.html">контакты</a></li>
                     </ul>
                 </nav>
             </div>
@@ -151,11 +149,11 @@
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve"> <g> <g> <g> <path d="M15.733,20.125c1.104,0,2-0.896,2-2v-7.8C17.733,6.838,20.57,4,24.058,4c3.487,0,6.325,2.838,6.325,6.325v7.8 c0,1.104,0.896,2,2,2c1.104,0,2-0.896,2-2v-7.8C34.383,4.632,29.751,0,24.058,0c-5.692,0-10.324,4.632-10.324,10.325v7.8 C13.733,19.229,14.629,20.125,15.733,20.125z" fill="#D80027"/> <path d="M47,15.631H36.383v2.494c0,2.206-1.794,4-4,4c-2.205,0-4-1.794-4-4v-2.494h-8.649v2.494c0,2.206-1.794,4-4,4 s-4-1.794-4-4v-2.494H1c-0.552,0-0.893,0.435-0.762,0.971L7.235,45.1C7.658,46.702,9.343,48,11,48h26 c1.658,0,3.342-1.299,3.767-2.9l6.996-28.498C47.893,16.065,47.553,15.631,47,15.631z" fill="#D80027"/> </g> </g> </g> <g> </g></svg>
             </a>
             <div class="basket">
-                <div class="basket__ico"><img src="/img/card-ico.png" alt="basket"></div>
+                <div class="basket__ico"><img src="img/card-ico.png" alt="basket"></div>
                 <div class="basket__info">
                     <div class="basket__header">
                         <p class="basket__title">В корзине</p>
-                        <div class="basket__counter btn btn-primary"><span>9</span></div>
+                        <a href="basket.html" class="basket__counter btn btn-primary"><span>9</span></a>
                         <p class="basket__title">товаров</p>
                     </div>
                     <div class="basket__footer">
@@ -181,7 +179,7 @@
                     <ul class="search-nav__drop-down">
                         <li class="secondary-nav__drop-down-item">
                             <div class="search_secondary_img">
-                                <img src="/img/book-item.png" alt="book">
+                                <img src="img/book-item.png" alt="book">
                             </div>
                             <div class="search_secondary_title">
                                 <div class="search_secondary_avtor">
@@ -193,7 +191,7 @@
                         </li>
                         <li class="secondary-nav__drop-down-item">
                             <div class="search_secondary_img">
-                                <img src="/img/book-item.png" alt="book">
+                                <img src="img/book-item.png" alt="book">
                             </div>
                             <div class="search_secondary_title">
                                 <div class="search_secondary_avtor">
@@ -219,7 +217,7 @@
 <div class="promo-wrapper">
     <div class="promo-slider hidden-xs">
         <div class="promo-slider__item">
-            <img class="bi_slide" src="/img/slide.png" alt="">
+            <img class="bi_slide" src="img/slide.png" alt="">
             <div class="container">
                 <div class="content">
                     <div class="box">
@@ -233,13 +231,13 @@
                             <button type="submit">Подробно</button>
                         </a>
                     </div>
-                    <img src="/img/slide_content.png" alt="content">
+                    <img src="img/slide_content.png" alt="content">
                 </div>
                 <div class="col-sm-1"></div>
             </div>
         </div>
         <div class="promo-slider__item">
-            <img class="bi_slide" src="/img/slide.png" alt="">
+            <img class="bi_slide" src="img/slide.png" alt="">
             <div class="container">
                 <div class="content">
                     <div class="box">
@@ -253,13 +251,13 @@
                             <button type="submit">Подробно</button>
                         </div>
                     </div>
-                    <img src="/img/slide_content.png" alt="content">
+                    <img src="img/slide_content.png" alt="content">
                 </div>
                 <div class="col-sm-1"></div>
             </div>
         </div>
         <div class="promo-slider__item">
-            <img class="bi_slide" src="/img/slide.png" alt="">
+            <img class="bi_slide" src="img/slide.png" alt="">
             <div class="container">
                 <div class="content">
                     <div class="box">
@@ -273,13 +271,13 @@
                             <button type="submit">Подробно</button>
                         </div>
                     </div>
-                    <img src="/img/slide_content.png" alt="content">
+                    <img src="img/slide_content.png" alt="content">
                 </div>
                 <div class="col-sm-1"></div>
             </div>
         </div>
         <div class="promo-slider__item">
-            <img class="bi_slide" src="/img/slide.png" alt="">
+            <img class="bi_slide" src="img/slide.png" alt="">
             <div class="container">
                 <div class="content">
                     <div class="box">
@@ -293,13 +291,13 @@
                             <button type="submit">Подробно</button>
                         </div>
                     </div>
-                    <img src="/img/slide_content.png" alt="content">
+                    <img src="img/slide_content.png" alt="content">
                 </div>
                 <div class="col-sm-1"></div>
             </div>
         </div>
         <div class="promo-slider__item">
-            <img class="bi_slide" src="/img/slide.png" alt="">
+            <img class="bi_slide" src="img/slide.png" alt="">
             <div class="container">
                 <div class="content">
                     <div class="box">
@@ -313,7 +311,7 @@
                             <button type="submit">Подробно</button>
                         </div>
                     </div>
-                    <img src="/img/slide_content.png" alt="content">
+                    <img src="img/slide_content.png" alt="content">
                 </div>
                 <div class="col-sm-1"></div>
             </div>
@@ -328,31 +326,31 @@
                         в подарок</a></div>
                     <div class="col-2 col-offset-1 col-xs-8 col-xs-offset-2">
                         <div class="promo-items__item">
-                            <div class="promo-items__img"><img src="/img/grey-book.jpg" alt="book"></div>
+                            <div class="promo-items__img"><img src="img/grey-book.jpg" alt="book"></div>
                             <a href="#" class="btn btn-primary btn--no-rounded">для мужчин</a>
                         </div>
                     </div>
                     <div class="col-2 col-xs-8 col-xs-offset-2">
                         <div class="promo-items__item">
-                            <div class="promo-items__img"><img src="/img/grey-book.jpg" alt="book"></div>
+                            <div class="promo-items__img"><img src="img/grey-book.jpg" alt="book"></div>
                             <a href="#" class="btn btn-primary btn--no-rounded">для женщин</a>
                         </div>
                     </div>
                     <div class="col-2 col-xs-8 col-xs-offset-2">
                         <div class="promo-items__item">
-                            <div class="promo-items__img"><img src="/img/grey-book.jpg" alt="book"></div>
+                            <div class="promo-items__img"><img src="img/grey-book.jpg" alt="book"></div>
                             <a href="#" class="btn btn-primary btn--no-rounded">для руководителя</a>
                         </div>
                     </div>
                     <div class="col-2 col-xs-8 col-xs-offset-2">
                         <div class="promo-items__item">
-                            <div class="promo-items__img"><img src="/img/grey-book.jpg" alt="book"></div>
+                            <div class="promo-items__img"><img src="img/grey-book.jpg" alt="book"></div>
                             <a href="#" class="btn btn-primary btn--no-rounded">ко дню</a>
                         </div>
                     </div>
                     <div class="col-2 col-xs-8 col-xs-offset-2">
                         <div class="promo-items__item">
-                            <div class="promo-items__img"><img src="/img/grey-book.jpg" alt="book"></div>
+                            <div class="promo-items__img"><img src="img/grey-book.jpg" alt="book"></div>
                             <a href="#" class="btn btn-primary btn--no-rounded">на юбилей</a>
                         </div>
                     </div>
@@ -443,12 +441,14 @@
                 </div>
             </div>
             <div id="content" class="col-9 col-xs-12">
-                <h4 class="f-center title-secondary">эксклюзив</h4>
+                <h4 class="f-center title-secondary">
+                    <a href="category.html">эксклюзив</a>
+                </h4>
                 <div class="row js-market-items-slider js-market-items-slider1">
-                    <a href="#">
+                    <a href="card.html">
                         <div class="market-item">
                             <span class="market-item__theme theme_exclusive">Exclusive</span>
-                            <div class="market-item__img"><img src="/img/book-item.png" alt="book"></div>
+                            <div class="market-item__img"><img src="img/book-item.png" alt="book"></div>
                             <div class="market-item__description">
                                 <p>Optioned for film by Reese Witherspoon, Luckiest Girl Alive will appeal</p>
                             </div>
@@ -463,10 +463,10 @@
                             <button class="btn btn-default market-item__click-buy js-click-buy">Купить в 1 клик</button>
                         </div>
                     </a>
-                    <a href="#">
+                    <a href="card.html">
                         <div class="market-item">
                             <span class="market-item__theme theme_exclusive">Exclusive</span>
-                            <div class="market-item__img"><img src="/img/book-item2.png" alt="book"></div>
+                            <div class="market-item__img"><img src="img/book-item2.png" alt="book"></div>
                             <div class="market-item__description">
                                 <p>Bestselling author Linda Conrads</p>
                             </div>
@@ -481,10 +481,10 @@
                             <button class="btn btn-default market-item__click-buy js-click-buy">Купить в 1 клик</button>
                         </div>
                     </a>
-                    <a href="#">
+                    <a href="card.html">
                         <div class="market-item">
                             <span class="market-item__theme theme_exclusive">Exclusive</span>
-                            <div class="market-item__img"><img src="/img/book-item3.png" alt="book"></div>
+                            <div class="market-item__img"><img src="img/book-item3.png" alt="book"></div>
                             <div class="market-item__description">
                                 <p>Optioned for film by Reese Witherspoon, Luckiest Girl Alive will appeal</p>
                             </div>
@@ -499,10 +499,10 @@
                             <button class="btn btn-default market-item__click-buy js-click-buy">Купить в 1 клик</button>
                         </div>
                     </a>
-                    <a href="#">
+                    <a href="card.html">
                         <div class="market-item">
                             <span class="market-item__theme theme_exclusive">Exclusive</span>
-                            <div class="market-item__img"><img src="/img/book-item.png" alt="book"></div>
+                            <div class="market-item__img"><img src="img/book-item.png" alt="book"></div>
                             <div class="market-item__description">
                                 <p>Optioned for film by Reese Witherspoon, Luckiest Girl Alive will appeal</p>
                             </div>
@@ -520,10 +520,10 @@
                 </div>
                 <h4 class="f-center title-secondary">популярные</h4>
                 <div class="row js-market-items-slider js-market-items-slider2">
-                    <a href="#">
+                    <a href="card.html">
                         <div class="market-item">
                             <span class="market-item__theme theme_popular">Popular</span>
-                            <div class="market-item__img"><img src="/img/book-item.png" alt="book"></div>
+                            <div class="market-item__img"><img src="img/book-item.png" alt="book"></div>
                             <div class="market-item__description">
                                 <p>Optioned for film by Reese Witherspoon, Luckiest Girl Alive will appeal</p>
                             </div>
@@ -538,10 +538,10 @@
                             <button class="btn btn-default market-item__click-buy js-click-buy">Купить в 1 клик</button>
                         </div>
                     </a>
-                    <a href="#">
+                    <a href="card.html">
                         <div class="market-item">
                             <span class="market-item__theme theme_popular">Popular</span>
-                            <div class="market-item__img"><img src="/img/book-item2.png" alt="book"></div>
+                            <div class="market-item__img"><img src="img/book-item2.png" alt="book"></div>
                             <div class="market-item__description">
                                 <p>Bestselling author Linda Conrads</p>
                             </div>
@@ -556,10 +556,10 @@
                             <button class="btn btn-default market-item__click-buy js-click-buy">Купить в 1 клик</button>
                         </div>
                     </a>
-                    <a href="#">
+                    <a href="card.html">
                         <div class="market-item">
                             <span class="market-item__theme theme_popular">Popular</span>
-                            <div class="market-item__img"><img src="/img/book-item3.png" alt="book"></div>
+                            <div class="market-item__img"><img src="img/book-item3.png" alt="book"></div>
                             <div class="market-item__description">
                                 <p>Optioned for film by Reese Witherspoon, Luckiest Girl Alive will appeal</p>
                             </div>
@@ -574,10 +574,10 @@
                             <button class="btn btn-default market-item__click-buy js-click-buy">Купить в 1 клик</button>
                         </div>
                     </a>
-                    <a href="#">
+                    <a href="card.html">
                         <div class="market-item">
                             <span class="market-item__theme theme_popular">Popular</span>
-                            <div class="market-item__img"><img src="/img/book-item.png" alt="book"></div>
+                            <div class="market-item__img"><img src="img/book-item.png" alt="book"></div>
                             <div class="market-item__description">
                                 <p>Optioned for film by Reese Witherspoon, Luckiest Girl Alive will appeal</p>
                             </div>
@@ -595,10 +595,10 @@
                 </div>
                 <h4 class="f-center title-secondary">новинки</h4>
                 <div class="row js-market-items-slider js-market-items-slider3">
-                    <a href="#">
+                    <a href="card.html">
                         <div class="market-item">
                             <span class="market-item__theme theme_new">New</span>
-                            <div class="market-item__img"><img src="/img/book-item.png" alt="book"></div>
+                            <div class="market-item__img"><img src="img/book-item.png" alt="book"></div>
                             <div class="market-item__description">
                                 <p>Optioned for film by Reese Witherspoon, Luckiest Girl Alive will appeal</p>
                             </div>
@@ -613,10 +613,10 @@
                             <button class="btn btn-default market-item__click-buy js-click-buy">Купить в 1 клик</button>
                         </div>
                     </a>
-                    <a href="#">
+                    <a href="card.html">
                         <div class="market-item">
                             <span class="market-item__theme theme_new">New</span>
-                            <div class="market-item__img"><img src="/img/book-item2.png" alt="book"></div>
+                            <div class="market-item__img"><img src="img/book-item2.png" alt="book"></div>
                             <div class="market-item__description">
                                 <p>Bestselling author Linda Conrads</p>
                             </div>
@@ -631,10 +631,10 @@
                             <button class="btn btn-default market-item__click-buy js-click-buy">Купить в 1 клик</button>
                         </div>
                     </a>
-                    <a href="#">
+                    <a href="card.html">
                         <div class="market-item">
                             <span class="market-item__theme theme_new">New</span>
-                            <div class="market-item__img"><img src="/img/book-item3.png" alt="book"></div>
+                            <div class="market-item__img"><img src="img/book-item3.png" alt="book"></div>
                             <div class="market-item__description">
                                 <p>Optioned for film by Reese Witherspoon, Luckiest Girl Alive will appeal</p>
                             </div>
@@ -649,10 +649,10 @@
                             <button class="btn btn-default market-item__click-buy js-click-buy">Купить в 1 клик</button>
                         </div>
                     </a>
-                    <a href="#">
+                    <a href="card.html">
                         <div class="market-item">
                             <span class="market-item__theme theme_new">New</span>
-                            <div class="market-item__img"><img src="/img/book-item.png" alt="book"></div>
+                            <div class="market-item__img"><img src="img/book-item.png" alt="book"></div>
                             <div class="market-item__description">
                                 <p>Optioned for film by Reese Witherspoon, Luckiest Girl Alive will appeal</p>
                             </div>
@@ -670,10 +670,10 @@
                 </div>
                 <h4 class="f-center title-secondary">Специальные предложения</h4>
                 <div class="row js-market-items-slider js-market-items-slider4">
-                    <a href="#">
+                    <a href="card.html">
                         <div class="market-item">
                             <span class="market-item__theme theme_special">Special</span>
-                            <div class="market-item__img"><img src="/img/book-item.png" alt="book"></div>
+                            <div class="market-item__img"><img src="img/book-item.png" alt="book"></div>
                             <div class="market-item__description">
                                 <p>Optioned for film by Reese Witherspoon, Luckiest Girl Alive will appeal</p>
                             </div>
@@ -688,10 +688,10 @@
                             <button class="btn btn-default market-item__click-buy js-click-buy">Купить в 1 клик</button>
                         </div>
                     </a>
-                    <a href="#">
+                    <a href="card.html">
                         <div class="market-item">
                             <span class="market-item__theme theme_special">Special</span>
-                            <div class="market-item__img"><img src="/img/book-item2.png" alt="book"></div>
+                            <div class="market-item__img"><img src="img/book-item2.png" alt="book"></div>
                             <div class="market-item__description">
                                 <p>Bestselling author Linda Conrads</p>
                             </div>
@@ -706,10 +706,10 @@
                             <button class="btn btn-default market-item__click-buy js-click-buy">Купить в 1 клик</button>
                         </div>
                     </a>
-                    <a href="#">
+                    <a href="card.html">
                         <div class="market-item">
                             <span class="market-item__theme theme_special">Special</span>
-                            <div class="market-item__img"><img src="/img/book-item3.png" alt="book"></div>
+                            <div class="market-item__img"><img src="img/book-item3.png" alt="book"></div>
                             <div class="market-item__description">
                                 <p>Optioned for film by Reese Witherspoon, Luckiest Girl Alive will appeal</p>
                             </div>
@@ -724,10 +724,10 @@
                             <button class="btn btn-default market-item__click-buy js-click-buy">Купить в 1 клик</button>
                         </div>
                     </a>
-                    <a href="#">
+                    <a href="card.html">
                         <div class="market-item">
                             <span class="market-item__theme theme_special">Special</span>
-                            <div class="market-item__img"><img src="/img/book-item.png" alt="book"></div>
+                            <div class="market-item__img"><img src="img/book-item.png" alt="book"></div>
                             <div class="market-item__description">
                                 <p>Optioned for film by Reese Witherspoon, Luckiest Girl Alive will appeal</p>
                             </div>
@@ -779,10 +779,12 @@
 <div class="news-wrapper">
     <div class="container">
         <div class="news">
-            <h4 class="f-center">новости</h4>
+            <h4 class="f-center title-secondary">
+                <a href="all-news.html">новости</a>
+            </h4>
             <div class="row">
                 <div class="col-4 col-sm-offset-0 col-xs-8 col-xs-offset-2">
-                    <a href="#" class="news__header"><img src="/img/post-opus-1.png" alt="news"></a>
+                    <a href="#" class="news__header"><img src="img/post-opus-1.png" alt="news"></a>
                     <div class="news__content">
                         <a href="#" class="f-center">This is the Post’s Title NUMBER 1</a>
                     </div>
@@ -798,7 +800,7 @@
                     </div>
                 </div>
                 <div class="col-4 col-sm-offset-0 col-xs-8 col-xs-offset-2">
-                    <a href="#" class="news__header"><img src="/img/post-opus-2.png" alt="news"></a>
+                    <a href="#" class="news__header"><img src="img/post-opus-2.png" alt="news"></a>
                     <div class="news__content">
                         <a href="#" class="f-center">This is the Post’s Title NUMBER 2</a>
                     </div>
@@ -814,7 +816,7 @@
                     </div>
                 </div>
                 <div class="col-4 col-sm-offset-0 col-xs-8 col-xs-offset-2">
-                    <a href="#" class="news__header"><img src="/img/post-opus-3.png" alt="news"></a>
+                    <a href="#" class="news__header"><img src="img/post-opus-3.png" alt="news"></a>
                     <div class="news__content">
                         <a href="#" class="f-center">This is the Post’s Title NUMBER 3</a>
                     </div>
@@ -840,7 +842,7 @@
                 <div class="footer_slogan col-sm-4">
                     <div class="footer_slogan_content col-sm-9">
                         <div class="img">
-                            <img src="/img/logo.png" alt="logo">
+                            <img src="img/logo.png" alt="logo">
                         </div>
                         <p>
                             В Дарито каждый - мастер, каждый - профессионал, каждый предан любимой работе, итогом
@@ -925,9 +927,9 @@
     <p>с пн-пт 9:00-18:00</p>
 </div>
 <a href="#top" class="go-top"><i class="fa fa-arrow-up"></i><br>Наверх</a>
-<script src="/js/jquery.min.js"></script>
-<script src="/js/libs.min.js"></script>
-<script src="/js/common.js"></script>
-<script src="/js/basket.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/libs.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/basket.js"></script>
 </body>
 </html>

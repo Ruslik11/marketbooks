@@ -506,6 +506,7 @@ h6 {
 }
 
 .modal__body {
+  width: 100%;
   margin: 10px 0;
 }
 
@@ -1113,7 +1114,7 @@ img {
   width: 23px;
   height: 78px;
   border: none;
-  background: url(/img/slider-ctrl.png) no-repeat;
+  background: url(../img/slider-ctrl.png) no-repeat;
 }
 
 .card-slider.owl-carousel .owl-buttons .owl-next {
@@ -1124,7 +1125,7 @@ img {
   width: 23px;
   height: 78px;
   border: none;
-  background: url(/img/slider-ctrl.png) no-repeat;
+  background: url(../img/slider-ctrl.png) no-repeat;
   background-position: -45px 0;
 }
 
@@ -1149,19 +1150,19 @@ img {
 }
 
 .rating .rateit .rateit-selected {
-  background: url(/img/star.gif) left -16px;
+  background: url(../img/star.gif) left -16px;
 }
 
 .rating .rateit .rateit-range {
-  background: url(/img/star.gif);
+  background: url(../img/star.gif);
 }
 
 .rating .rateit button.rateit-reset {
-  background: url(/img/delete.gif) 0 0;
+  background: url(../img/delete.gif) 0 0;
 }
 
 .rating .rateit .rateit-hover {
-  background: url(/img/star.gif) left -32px;
+  background: url(../img/star.gif) left -32px;
 }
 
 .reviews {
@@ -1358,7 +1359,7 @@ img {
 }
 
 .bl-bordered {
-  background: url(/img/border.png) no-repeat;
+  background: url(../img/border.png) no-repeat;
   background-size: 100% 100%;
   min-height: 515px;
   padding: 50px;
@@ -1432,7 +1433,7 @@ img {
   display: inline-block;
   width: 35px;
   height: 45px;
-  background: url(/img/card-ico.png) no-repeat;
+  background: url(../img/card-ico.png) no-repeat;
   background-size: 100% 100%;
 }
 
@@ -1453,7 +1454,7 @@ img {
   width: 23px;
   height: 78px;
   border: none;
-  background: url(/img/slider-ctrl.png) no-repeat;
+  background: url(../img/slider-ctrl.png) no-repeat;
 }
 
 .js-market-items-slider.owl-carousel .owl-buttons .owl-next {
@@ -1464,7 +1465,7 @@ img {
   width: 23px;
   height: 78px;
   border: none;
-  background: url(/img/slider-ctrl.png) no-repeat;
+  background: url(../img/slider-ctrl.png) no-repeat;
   background-position: -45px 0;
 }
 
@@ -1610,7 +1611,7 @@ img {
   display: block;
   width: 80px;
   height: 33px;
-  background: url(/img/pay-way.png) no-repeat;
+  background: url(../img/pay-way.png) no-repeat;
 }
 
 .pay-way__sprite--2 {
@@ -1655,7 +1656,7 @@ img {
   display: block;
   width: 28px;
   height: 27px;
-  background: url(/img/social-icons.png) no-repeat;
+  background: url(../img/social-icons.png) no-repeat;
 }
 
 .social-icons__sprite--2 {
